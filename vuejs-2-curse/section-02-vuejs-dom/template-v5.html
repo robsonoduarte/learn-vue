@@ -1,0 +1,31 @@
+<body>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>    
+    
+    <div id="app">
+        <p v-once>{{title}}</p>
+        <p>{{greeting()}}</p>
+        <a v-bind:href="link">Vue.js</a>
+    </div>
+    
+    <script type="text/javascript">
+        new Vue({
+            el: '#app',
+            data: {
+                title: 'Using Vue.js!',
+                link:  'https://vuejs.org/'
+            },
+            methods: {
+                greeting() {
+                    this.title = 'Good Morming !'
+                    return this.title
+                }
+            }
+        })
+    </script>
+
+</body>
+
+
