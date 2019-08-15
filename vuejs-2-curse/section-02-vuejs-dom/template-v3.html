@@ -7,7 +7,6 @@
 </head>    
     
     <div id="app">
-        <input type="text" />
         <p>{{title}}</p>
         <p>{{greeting()}}</p>
     </div>
@@ -19,8 +18,8 @@
                 title: 'Using Vue.js!'
             },
             methods: {
-                greeting(event) {
-                    return 'Good week !'
+                greeting() {
+                    return this.title
                 }
             }
         })
