@@ -4,3 +4,6 @@ Section 2 - Using Vue.js to intract with a DOM
 * [Vue Method](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/template-v2.html#L20-L23)
 * [Vue Accessing Data](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/template-v3.html#L20)
 * [v-bind](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/template-v4.html#L10)
+* [v-once]()
+* [v-html]()
+
