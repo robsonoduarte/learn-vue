@@ -7,3 +7,5 @@ Section 2 - Using Vue.js to intract with a DOM
 * [v-once](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/template-v5.html#L10)
 * [v-html](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/template-v6.html#L12)
 
+* [Challenge 01](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/challenge-01)
+
