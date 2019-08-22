@@ -9,6 +9,7 @@ Section 2 - Using Vue.js to intract with a DOM
 * [v-on click](https://github.com/robsonoduarte/learn-vue/blob/3d81af6b0706dd9d0ad9c8769e199b553ae53f48/vuejs-2-curse/section-02-vuejs-dom/events-v1.html#L9)
 * [v-on mouse move(get event)](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/events-v2.html#L10)
 * [v-on (paran, event)](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/events-v2.html#L10)
+* [v-on (stop, prevent(event) )](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/events-v2.html#L10)
 
 
 * [Challenge 01](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/challenge-01)
