@@ -1,0 +1,35 @@
+<body>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>    
+    
+    <div id="app">
+        <p>{{counter}}</p>
+        <button v-on:click="sum" >Somar 1</button>
+        <p v-on:mousemove="upCoordinates" >Mouse: {{ x }} e {{ y }}</p>
+    </div>
+    
+    <script type="text/javascript">
+        new Vue({
+            el: '#app',
+            data: {
+                counter: 0,
+                x: 0,
+                y: 0,
+            },
+            methods:{
+                sum(){
+                    this.counter++
+                },
+                upCoordinates(event){
+                    this.x = event.clientX
+                    this.y = event.clientY   
+                }
+            }
+        })
+    </script>
+
+</body>
+
+
