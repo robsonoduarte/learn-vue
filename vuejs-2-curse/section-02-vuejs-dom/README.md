@@ -13,7 +13,7 @@
 * [v-on (keyboard events)](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/events-v5.html#L16)
 * [Interpolation](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/interpolation.html)
 * [v-model(Two Way Binding)](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/reactive-properties-v1.html#L9)
-* [Porperties Computed)](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/reactive-properties-v2.html#L9)
+* [Porperties Computed](https://github.com/robsonoduarte/learn-vue/blob/3cc3a4c1587438c1a2710c7956f776f3fffdc114/vuejs-2-curse/section-02-vuejs-dom/reactive-properties-v2.html#L22-L26)
 * [Challenge 01](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/challenge-01)
 * [Challenge 02](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/challenge-02)
 
