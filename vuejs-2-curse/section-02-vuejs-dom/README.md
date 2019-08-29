@@ -17,4 +17,3 @@
 * [Watch Properties](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/reactive-properties-v3.html#L9)
 * [Challenge 01](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/challenge-01)
 * [Challenge 02](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/challenge-02)
-
