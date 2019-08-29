@@ -1,0 +1,41 @@
+<body>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>    
+    
+    <div id="app">
+        <button v-on:click="up" >UP</button>
+        <button v-on:click="counter2++" >UP 2</button>
+        <button v-on:click="down" >DOWN</button>
+        <p>Counter: {{counter}} | {{counter2}}</p>
+        <p>Result:  {{result}}</p>
+    </div>
+    
+    <script type="text/javascript">
+        new Vue({
+            el: '#app',
+            data: {
+                counter: 0,
+                counter2: 0
+            },
+            computed: {
+                result(){
+                  console.log('Calling result only when compute the counter')
+                  return this.counter >= 5 ? 'greater equals than 5' : 'less equals than 5'
+              }      
+            },
+            methods:{
+              up(){
+                  this.counter++
+              },
+              down(){
+                  this.counter--
+              }
+            }
+        })
+    </script>
+
+</body>
+
+
