@@ -1,0 +1,40 @@
+<body>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>    
+    
+    <div id="app">
+        <button v-on:click="up" >UP</button>
+        <button v-on:click="down" >DOWN</button>
+        <p>Counter: {{counter}}</p>
+    </div>
+    
+    <script type="text/javascript">
+        new Vue({
+            el: '#app',
+            data: {
+                counter: 0
+            },
+            watch:{
+                counter(newValue, oldValue){
+                    console.log(newValue,oldValue)
+                    setTimeout( () => {
+                        this.counter = 0
+                    }, 2000)
+                }
+            },
+            methods:{
+              up(){
+                  this.counter++
+              },
+              down(){
+                  this.counter--
+              }
+            }
+        })
+    </script>
+
+</body>
+
+
