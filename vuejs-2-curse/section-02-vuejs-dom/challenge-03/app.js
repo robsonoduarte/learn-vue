@@ -9,7 +9,7 @@ new Vue({
         }
     },
     watch: {
-        value() {
+        result() {
             setTimeout(() => {
                 this.value = 0
             }, 5000)
