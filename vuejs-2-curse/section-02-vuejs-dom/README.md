@@ -15,6 +15,6 @@
 * [v-model(Two Way Binding)](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/reactive-properties-v1.html#L9)
 * [Porperties Computed](https://github.com/robsonoduarte/learn-vue/blob/3cc3a4c1587438c1a2710c7956f776f3fffdc114/vuejs-2-curse/section-02-vuejs-dom/reactive-properties-v2.html#L22-L26)
 * [Watch Properties](https://github.com/robsonoduarte/learn-vue/blob/89d208db6f0cda78c4bba04a11de710317a9035e/vuejs-2-curse/section-02-vuejs-dom/reactive-properties-v3.html#L19-L26)
-* [Shorthands](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/reactive-properties-v3.html#L9)
+* [Shorthands](https://github.com/robsonoduarte/learn-vue/blob/50ca8d573d3aed8a3da5865e474268186246d2de/vuejs-2-curse/section-02-vuejs-dom/template-v7.html#L9-L11)
 * [Challenge 01](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/challenge-01)
 * [Challenge 02](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/challenge-02)
