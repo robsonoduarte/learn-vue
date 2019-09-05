@@ -18,3 +18,4 @@
 * [Shorthands](https://github.com/robsonoduarte/learn-vue/blob/50ca8d573d3aed8a3da5865e474268186246d2de/vuejs-2-curse/section-02-vuejs-dom/template-v7.html#L9-L11)
 * [Challenge 01](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/challenge-01)
 * [Challenge 02](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/challenge-02)
+* [Challenge 02](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/challenge-03)
