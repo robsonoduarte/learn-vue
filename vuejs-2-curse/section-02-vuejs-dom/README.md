@@ -19,7 +19,7 @@
 * [Dynamic CSS 1](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/style-v01.html#L31)
 * [Dynamic CSS 2](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/style-v02.html#L31)
 * [Dynamic CSS 3](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/style-v03.html#L35-L37)
-* [Dynamic CSS 4](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/style-v03.html#L35-L37)
+* [Dynamic CSS 4](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/style-v04.html#L35-L37)
 * [Challenge 01](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/challenge-01)
 * [Challenge 02](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/challenge-02)
 * [Challenge 03](https://github.com/robsonoduarte/learn-vue/blob/master/vuejs-2-curse/section-02-vuejs-dom/challenge-03)
