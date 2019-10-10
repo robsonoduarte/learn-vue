@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    </head>
+    <body>
+        <div id="app">
+            <template v-if="logged">
+                <p v-if="logged" >logged user: {{name}}</p>
+                <p>Profile: Admin</p>                
+            </template>
+            <p v-else-if="anonymous">anonymous navegation</p>
+            <p v-else>nothing user logged</p>
+            <button @click="logged = !logged" >{{logged ? 'logoff' : 'login'}}</button>
+            <input type="checkbox" v-mode="anonymous">
+        </div>
+    </body>
+    <script>
+        new Vue({
+            el: '#app',
+            data:{
+                name: 'Robson',
+                logged: false,
+                anonymous: false
+            }
+        })
+    </script>
+</html>
