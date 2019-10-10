@@ -3,4 +3,5 @@
 * [v-if / v-else](https://github.com/robsonoduarte/learn-vue/blob/e6be21fe62a44d1106d495abc04eb9b01c99cf38/vuejs-2-curse/section-03-conditionals-list/conditionals-v1.html#L8-L9)
 * [v-else-if](https://github.com/robsonoduarte/learn-vue/blob/e6be21fe62a44d1106d495abc04eb9b01c99cf38/vuejs-2-curse/section-03-conditionals-list/conditionals-v1.html#L8-L9)
 * [v-if & template](https://github.com/robsonoduarte/learn-vue/blob/e6be21fe62a44d1106d495abc04eb9b01c99cf38/vuejs-2-curse/section-03-conditionals-list/conditionals-v1.html#L8-L9)
+* [v-show](https://github.com/robsonoduarte/learn-vue/blob/e6be21fe62a44d1106d495abc04eb9b01c99cf38/vuejs-2-curse/section-03-conditionals-list/conditionals-v1.html#L8-L9)
 
