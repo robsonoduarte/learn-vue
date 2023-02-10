@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Vue Framework</title>
+</head>
+
+<body>
+<div id="app">
+    {{name}} {{1 + 1}}
+</div>
+
+</body>
+
+<script>
+    function Vue(params) {
+        this.$el = document.querySelector(params.el)
+        this.$data = params.data
+        for (let attr in this.$data) {
+            Object.defineProperty(this, attr, {
+                get: () => {
+                    return this.$data[attr]
+                },
+                set: value => {
+                    this.$data[attr] = value
+                }
+            })
+        }
+        const regex = /\{\{([\s\w+]*)\}\}/g
+        this.$el.innerHTML = this.$el.innerHTML.replace(regex, (match, $1) =>{
+            const value = this[$1.trim()]
+            return value ? value : eval($1)
+        })
+    }
+
+    new Vue({
+        el: '#app',
+        data: {
+            name: 'Maria',
+        }
+    })
+
+</script>
+
+</html>
