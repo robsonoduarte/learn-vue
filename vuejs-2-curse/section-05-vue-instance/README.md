@@ -3,5 +3,7 @@
 the topics are:
 
 [Multi Vue Instances]()
+[External Vue Instance]()
+[Simple Vue Framework]()
 
 

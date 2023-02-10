@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>External Vue Instances</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+</head>
+
+<body>
+<div id="app1">
+    {{ title }}
+    <button @click="changeTitle">change</button>
+</div>
+<div id="app2">
+    {{ title }}
+    <button @click="changeTitle">change</button>
+</div>
+</body>
+
+<script>
+    const vm1 =  new Vue({
+        el: '#app1',
+        data:{
+            title: 'Vue Instance 1',
+        },
+        methods:{
+            changeTitle(){
+                vm2.title += '!'
+            }
+        }
+    });
+    const vm2 = new Vue({
+        el: '#app2',
+        data:{
+            title: 'Vue Instance 2',
+        },
+        methods:{
+            changeTitle(){
+                vm1.title += '!'
+            }
+        }
+    });
+</script>
+
+</html>
