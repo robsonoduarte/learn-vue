@@ -2,9 +2,12 @@
 
 the topics are:
 
-* [Multi Vue Instances](https://github.com/robsonoduarte/learn-vue/blob/40fd5531d3fc93f4ae531e1eed7dcacf4c6d0498/vuejs-2-curse/section-05-vue-instance/multi-vue-instances.html#L21-L42)
-* [External Vue Instance](https://github.com/robsonoduarte/learn-vue/blob/40fd5531d3fc93f4ae531e1eed7dcacf4c6d0498/vuejs-2-curse/section-05-vue-instance/external-vue-instance.html#L21-L42)
-* [Simple Vue Framework](https://github.com/robsonoduarte/learn-vue/blob/40fd5531d3fc93f4ae531e1eed7dcacf4c6d0498/vuejs-2-curse/section-05-vue-instance/my-vue.html#L16-L41)
-* [Vue Instance Refs](https://github.com/robsonoduarte/learn-vue/blob/40fd5531d3fc93f4ae531e1eed7dcacf4c6d0498/vuejs-2-curse/section-05-vue-instance/vue-instances-refs.html#L11)
+* [Vue Multi Instances](https://github.com/robsonoduarte/learn-vue/blob/robsonoduarte-patch-1/vuejs-2-curse/section-05-vue-instance/vue-instance-multi.html)
+* [Vue External Instance](https://github.com/robsonoduarte/learn-vue/blob/robsonoduarte-patch-1/vuejs-2-curse/section-05-vue-instance/vue-external-instance.html)
+* [Vue Simple Framework](https://github.com/robsonoduarte/learn-vue/blob/robsonoduarte-patch-1/vuejs-2-curse/section-05-vue-instance/vue-my.html)
+* [Vue Refs Instance ](https://github.com/robsonoduarte/learn-vue/blob/robsonoduarte-patch-1/vuejs-2-curse/section-05-vue-instance/vue-instance-refs.html)
+* [Vue Component](https://github.com/robsonoduarte/learn-vue/blob/robsonoduarte-patch-1/vuejs-2-curse/section-05-vue-instance/vue-component.html)
+* [Vue Mount Instance](https://github.com/robsonoduarte/learn-vue/blob/robsonoduarte-patch-1/vuejs-2-curse/section-05-vue-instance/vue-instance-mount.html)
+* [Vue Life Cycle](https://github.com/robsonoduarte/learn-vue/blob/robsonoduarte-patch-1/vuejs-2-curse/section-05-vue-instance/vue-instance-life-cycle.html)
 
 
