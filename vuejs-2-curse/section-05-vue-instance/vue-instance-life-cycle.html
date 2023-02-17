@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Instance Life Cycle</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+</head>
+
+<body>
+<div id="app">
+    <h1>{{ title }}</h1>
+    <button @click="title += '!'">change Title</button>
+    <button @click="$destroy()">Destroy</button>
+</div>
+</body>
+
+<script>
+    new Vue({
+        el: '#app',
+        data:{
+            title: 'Vue Instance Life Cycle',
+        },
+        beforeCreate(){
+            console.log('before create')
+        },
+        created() {
+            console.log('created')
+        },
+        beforeMount() {
+            console.log('before mount')
+        },
+        mounted() {
+            console.log('mounted')
+        },
+        beforeUpdate() {
+            console.log('before update')
+        },
+        updated() {
+            console.log('updated')
+        },
+        beforeDestroy() {
+            console.log('before destroy')
+        },
+        destroyed() {
+            console.log('destroy')
+        },
+    });
+</script>
+
+</html>
