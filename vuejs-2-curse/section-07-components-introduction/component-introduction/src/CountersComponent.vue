@@ -2,6 +2,7 @@
   <div>
     <h1>Counters</h1>
     <app-counter v-for="k in 5" :key="k"/>
+    <button>?</button>
   </div>
 </template>
 
@@ -15,6 +16,6 @@ export default {
 }
 </script>
 
-<style>
+<style >
 
 </style>
