@@ -2,17 +2,22 @@
   <div class="component">
     <h2>User Information</h2>
     <p>Name: {{ reverseName() }}</p>
+    <p>Age: {{ age }}</p>
     <button @click="rebootName">Reboot Name (Event)</button>
     <button @click="rebootNameCallback">Reboot Name (Callback)</button>
   </div>
 </template>
 
 <script>
+import eventBus from "@/eventBus";
 export default {
   props: {
     name: {
       type: String,
       required: true,
+    },
+    age:{
+      type: Number,
     },
     rebootNameCallback: Function
   },
@@ -21,9 +26,11 @@ export default {
       return this.name.toUpperCase()
     },
     rebootName() {
-      this.name = 'Bravox'
-      this.$emit('nameChanged', this.name)
-    }
+      this.$emit('nameChanged', 'Bravox')
+    },
+  },
+  created() {
+    eventBus.$on('ageChanged',age => {this.age = age})
   }
 
 }

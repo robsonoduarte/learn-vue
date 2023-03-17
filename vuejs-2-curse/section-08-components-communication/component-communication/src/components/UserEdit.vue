@@ -1,20 +1,35 @@
 <template>
-    <div class="component">
-        <h2>Alterar os Dados de Usuário</h2>
-        <p>Edite as informações</p>
-    </div>
+  <div class="component">
+    <h2>Edit User Information</h2>
+    <p>Age: {{ age }}</p>
+    <button @click="changeAge">Change Age</button>
+  </div>
 </template>
 
 <script>
+
+import eventBus from "@/eventBus";
+
 export default {
-    
+  props: {
+    age: {
+      type: Number,
+    }
+  },
+  methods:{
+    changeAge(){
+      this.age++
+      eventBus.$emit('ageChanged', this.age);
+    }
+  }
+
 }
 </script>
 
 <style scoped>
-    .component {
-        flex: 1;
-        background-color: #98b99a;
-        color: #fff;
-    }
+.component {
+  flex: 1;
+  background-color: #98b99a;
+  color: #fff;
+}
 </style>

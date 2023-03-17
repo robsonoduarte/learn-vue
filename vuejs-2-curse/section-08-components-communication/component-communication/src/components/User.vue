@@ -1,12 +1,13 @@
 <template>
   <div class="container">
     <h1>User Component</h1>
-    <p><strong>{{ name }}</strong></p>
+    <p><strong>Name: {{ name }}</strong></p>
+    <p><strong>Age: {{ age }}</strong></p>
     <button @click="changeName">Change Name</button>
     <hr>
     <div class="components">
-      <app-user-info v-bind:name="name" @nameChanged="name= $event" :reboot-name-callback="rebootName"/>
-      <app-user-edit/>
+      <app-user-info :name="name" :age="age" @nameChanged="name= $event" :reboot-name-callback="rebootName" />
+      <app-user-edit :age="age"/>
     </div>
   </div>
 </template>
@@ -14,12 +15,13 @@
 <script>
 import AppUserInfo from './UserInfo.vue'
 import AppUserEdit from './UserEdit.vue'
-
+import eventBus from "@/eventBus";
 export default {
   components: {AppUserInfo, AppUserEdit},
   data() {
     return {
-      name: 'Bravox'
+      name: 'Bravox',
+      age: 46,
     }
   },
   methods: {
@@ -29,6 +31,9 @@ export default {
     rebootName() {
       this.name = 'Bravox'
     }
+  },
+  created() {
+    eventBus.$on('ageChanged', age => { this.age = age})
   }
 }
 </script>
