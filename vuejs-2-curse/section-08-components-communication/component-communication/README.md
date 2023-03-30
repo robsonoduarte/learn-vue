@@ -1,4 +1,7 @@
-# comunicacao
+# component-communication
+
+the topics are:
+...
 
 ## Project setup
 ```
