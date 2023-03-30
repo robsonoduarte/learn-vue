@@ -30,7 +30,7 @@ export default {
     },
   },
   created() {
-    eventBus.$on('ageChanged',age => {this.age = age})
+    eventBus.onChangeAge(age => {this.age = age})
   }
 
 }
