@@ -8,5 +8,6 @@
 * [Vue CLI](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/vue-cli)
 * [Vue Components](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/component-introduction)
 * [Components Communication](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/component-communication)
+* [Components Advancated](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/component-advanced)
 
 
