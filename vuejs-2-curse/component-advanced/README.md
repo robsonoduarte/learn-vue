@@ -1,4 +1,8 @@
-# componente-avancado
+# componente-advanced
+
+[slots/slots named](https://github.com/robsonoduarte/learn-vue/blob/9698f6d9cae919c56aa8bbf1395e376fcc814bd7/vuejs-2-curse/component-advanced/src/components/Citacao.vue#L3-L5)
+
+
 
 ## Project setup
 ```
@@ -10,20 +14,3 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
