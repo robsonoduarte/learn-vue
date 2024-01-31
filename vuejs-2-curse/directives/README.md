@@ -13,6 +13,8 @@
 * [using modifiers](https://github.com/robsonoduarte/learn-vue/blob/0b7dd5750a8cb641d6584c38dd0345d962002233/vuejs-2-curse/directives/src/main.js#L9)
 * [local directive](https://github.com/robsonoduarte/learn-vue/blob/0b7dd5750a8cb641d6584c38dd0345d962002233/vuejs-2-curse/directives/src/App.vue#L15)
 * [using local directive](https://github.com/robsonoduarte/learn-vue/blob/0b7dd5750a8cb641d6584c38dd0345d962002233/vuejs-2-curse/directives/src/App.vue#L8)
+* [passing multiples modifies]()
+* [using multiples modifies]()
 
 ## Project setup
 ```
