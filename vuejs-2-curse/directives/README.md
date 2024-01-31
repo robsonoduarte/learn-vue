@@ -11,6 +11,8 @@
 * [using argument]()
 * [passing modifiers]()
 * [using modifiers]()
+* [local directive]()
+* [using local directive]()
 
 ## Project setup
 ```
