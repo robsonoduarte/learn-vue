@@ -3,29 +3,41 @@
     <h1>Directives</h1>
     <hr/>
     <p v-highlight="color">Using the custom directive</p>
-    <p v-highlight:back="'lightblue'">Using the custom directive</p>
-    <p v-highlight:back.delay="'lightgreen'">Using the custom directive</p>
+    <p v-highlight:back="'lightblue'">Using the custom directive with args</p>
+    <p v-highlight:back.delay="'lightgreen'">Using the custom directive with modifiers </p>
     <p v-highlight-local:back.delay="'lightgreen'">Using the custom local directive</p>
+    <p v-highlight-local:back.delay.toggle="'lightgreen'">Using the custom local directive with multiple modifiers</p>
   </div>
 </template>
 
 <script>
 export default {
-  directives:{
-     'highlight-local':{
-       bind(el, binding, vnode){
-         let delay = 0;
-         if (binding.modifiers['delay']) delay = 3000;
-         setTimeout(() => {
-           if (binding.arg === 'back') {
-             el.style.backgroundColor = binding.value;
-           } else {
-             el.style.color = binding.value;
-           }
-         }, delay);
+  directives: {
+    'highlight-local': {
+      bind(el, binding, vnode) {
+        const applyColor = (color) => {
+          if (binding.arg === 'back') {
+            el.style.backgroundColor = color;
+          } else {
+            el.style.color = color;
+          }
+        }
+        let delay = 0;
+        if (binding.modifiers['delay']) delay = 3000;
+        setTimeout(() => {
+          let color = binding.value;
+          if (binding.modifiers['toggle']){
+            setInterval(() => {
+              color = color === binding.value ? 'mediumpurple' : binding.value;
+              applyColor(color);
+            }, 1000);
+          }else {
+            applyColor(color);
+          }
+        }, delay);
 
-       }
-     }
+      }
+    }
   },
   data() {
     return {
