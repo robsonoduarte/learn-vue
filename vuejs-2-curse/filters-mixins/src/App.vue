@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<h1>Filtros & Mixins</h1>
+		<h1>Filters & Mixins</h1>
 	</div>
 </template>
 
