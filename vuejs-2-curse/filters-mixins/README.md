@@ -2,8 +2,11 @@
 
 
 ### the topics are:
-* [...]()
-* [...]()
+* [local filter]()
+* [using filter]()
+* [global filter]()
+* [using multiples filters]()
+* [using with b-bind]()
 
 ## Project setup
 ```
