@@ -1,4 +1,9 @@
-# diretivas-exercicios
+# [filters](https://v2.vuejs.org/v2/guide/filters) and [mixins](https://v2.vuejs.org/v2/guide/mixins.html?redirect=true)
+
+
+### the topics are:
+* [...]()
+* [...]()
 
 ## Project setup
 ```
@@ -10,20 +15,3 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
