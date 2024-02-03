@@ -5,11 +5,24 @@
     <p>{{ doc | format }}</p>
     <p>{{ doc | format | reverse }}</p>
     <input type="text" :value="doc | format">
+    <hr>
+    <Fruits/>
+    <hr>
+    <div>
+      <ul>
+        <li v-for="fruit in fruits" :key="fruit">{{ fruit }}</li>
+      </ul>
+      <input type="text" v-model="fruit" @keydown.enter="add">
+    </div>
   </div>
 </template>
 
 <script>
+import fruitsMixin from "@/fruitsMixin";
+import Fruits from "@/fruits.vue";
 export default {
+  components: {Fruits},
+  mixins:[fruitsMixin],
   filters:{
     format(value) {
       const arr = value.split('');
