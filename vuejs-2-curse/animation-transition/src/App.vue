@@ -9,7 +9,6 @@
     <transition name="slide">
       <b-alert variant="info" show v-if="show">{{ message }}</b-alert>
     </transition>
-
     <transition name="fade-slide">
       <b-alert variant="info" show v-if="show">{{ message }}</b-alert>
     </transition>
@@ -67,7 +66,6 @@ export default {
 .fade-slide-enter, .fade-slide-leave-to{
   opacity: 0;
 }
-
 
 @keyframes slide-in {
   from {
