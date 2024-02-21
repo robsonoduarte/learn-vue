@@ -4,13 +4,21 @@
     <hr>
     <b-button variant="primary" class="mb-4" @click="show = !show">Show Message</b-button>
     <transition name="fade">
-      <b-alert variant="info" show v-if="show">{{ message }}</b-alert>
+      <b-alert variant="dark" show v-if="show">Fade Animation</b-alert>
     </transition>
     <transition name="slide">
-      <b-alert variant="info" show v-if="show">{{ message }}</b-alert>
+      <b-alert variant="info" show v-if="show">Slide Animation</b-alert>
     </transition>
     <transition name="fade-slide">
-      <b-alert variant="info" show v-if="show">{{ message }}</b-alert>
+      <b-alert variant="danger" show v-if="show">Fade and Slide - Mixing the Transition and Animation CSS </b-alert>
+    </transition>
+    <transition name="fade" appear>
+      <b-alert variant="secondary" show v-if="!show">Using the appear to loading animation with the component</b-alert>
+    </transition>
+    <transition
+        enter-active-class="animated bounce"
+        leave-active-class="animated shake">
+      <b-alert variant="primary" show v-if="show">Using external css to Animation</b-alert>
     </transition>
   </div>
 </template>
@@ -19,7 +27,6 @@
 export default {
   data() {
     return {
-      message: 'A message of information for the user',
       show: false,
     }
   }
