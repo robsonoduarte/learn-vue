@@ -11,8 +11,8 @@
 * [Using Transition & Animation](https://github.com/robsonoduarte/learn-vue/blob/338585367e8a8576cbfd0076589a41b26b4f47b7/vuejs-2-curse/animation-transition/src/App.vue#L12)
 * [Using appear to apply Animation in loading](https://github.com/robsonoduarte/learn-vue/blob/a5ff882a9ef3b4a43a58012f0585d649bc1c77c0/vuejs-2-curse/animation-transition/src/App.vue#L15)
 * [Using external css class](https://github.com/robsonoduarte/learn-vue/blob/a5ff882a9ef3b4a43a58012f0585d649bc1c77c0/vuejs-2-curse/animation-transition/src/App.vue#L18-L20)
-* [Using two-way binding ]()
-* [Using multiple components ]()
+* [Using two-way binding ](https://github.com/robsonoduarte/learn-vue/blob/30aaee185c403262403c3336e7e63365d734762c/vuejs-2-curse/animation-transition/src/App.vue#L29)
+* [Using multiple components ](https://github.com/robsonoduarte/learn-vue/blob/30aaee185c403262403c3336e7e63365d734762c/vuejs-2-curse/animation-transition/src/App.vue#L29-L31)
 
 ## Project setup
 ```
