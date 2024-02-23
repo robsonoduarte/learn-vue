@@ -20,6 +20,16 @@
         leave-active-class="animated shake">
       <b-alert variant="primary" show v-if="show">Using external css to Animation</b-alert>
     </transition>
+
+    <hr>
+    <b-select v-model="animationType" class="mb-4">
+      <option value="fade">Fade</option>
+      <option value="slide">Slide</option>
+    </b-select>
+    <transition :name="animationType" mode="out-in">
+      <b-alert variant="info" show v-if="show" key="info"> Using two-way binding and multiples component {{animationType.toUpperCase()}}</b-alert>
+      <b-alert variant="success" show v-else key="success"> Using two-way binding and multiples component {{animationType.toUpperCase()}}</b-alert>
+    </transition>
   </div>
 </template>
 
@@ -28,6 +38,7 @@ export default {
   data() {
     return {
       show: false,
+      animationType: 'fade'
     }
   }
 }
