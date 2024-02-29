@@ -66,6 +66,17 @@
               </b-alert>
             </transition>
           </b-col>
+          <b-col v-else-if="column === 'js'">
+            <b-button variant="primary" class="mb-4" @click="showBox = !showBox">Animate</b-button>
+            <transition
+                :css="false"
+                @before-enter="beforeEnter"
+                @enter="enter"
+                @before-leave="beforeLeave"
+                @leave="leave">
+              <div v-show="showBox" class="box"></div>
+            </transition>
+          </b-col>
           <b-col v-else-if="column === 'component'">
             <div class="mb-4">
               <b-button variant="primary" @click="component = 'AlertInfo'" class="mr-2">Alert</b-button>
