@@ -15,6 +15,7 @@
 * [Using multiple components](https://github.com/robsonoduarte/learn-vue/blob/d8e7abc13e8926556e0f7cf9bc9ba95320ab06ff/vuejs-2-curse/animation-transition/src/App.vue#L59-L66)
 * [Animate with JS](https://github.com/robsonoduarte/learn-vue/blob/d8e7abc13e8926556e0f7cf9bc9ba95320ab06ff/vuejs-2-curse/animation-transition/src/App.vue#L70-L77)
 * [Dynanic Component](https://github.com/robsonoduarte/learn-vue/blob/faee8a3325c031246b7f68e7aac2cf3698575c47/vuejs-2-curse/animation-transition/src/App.vue#L85-L87)
+* [Transition Group]()
 
 ## Project setup
 ```

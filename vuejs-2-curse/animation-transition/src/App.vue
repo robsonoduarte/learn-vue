@@ -13,7 +13,8 @@
             <b-nav-item @click="column = 'external'">External CSS</b-nav-item>
             <b-nav-item @click="column = 'two-way'">two-way binding / multiples component</b-nav-item>
             <b-nav-item @click="column = 'js'">Animation Using JS</b-nav-item>
-            <b-nav-item @click="column = 'component'">Dynamic Componet</b-nav-item>
+            <b-nav-item @click="column = 'component'">Dynamic Component</b-nav-item>
+            <b-nav-item @click="column = 'group'">Transition Group</b-nav-item>
           </b-nav>
         </b-col>
         <b-col>
@@ -86,6 +87,14 @@
               <component :is="component"> </component>
             </transition>
           </b-col>
+          <b-col v-else-if="column == 'group'">
+            <b-button @click="addStudent" class="mb-4">Add</b-button>
+            <transition-group name="slide">
+              <b-list-group v-for="(student, idx) in students" :key="student">
+                <b-list-group-item @click="removeStudent(idx)" >{{ student }}</b-list-group-item>
+              </b-list-group>
+            </transition-group>
+          </b-col>
         </b-col>
       </b-row>
     </b-container>
@@ -107,6 +116,7 @@ export default {
       animationType: 'fade',
       baseWidth: 0,
       component: 'AlertInfo',
+      students: ['Robson', 'Ana Mara', 'Maria', 'Antonio']
     }
   },
   methods: {
@@ -142,6 +152,13 @@ export default {
           done()
         }
       }, 20);
+    },
+    addStudent(){
+      const student = Math.random().toString(36).substring(2)
+      this.students.push(student)
+    },
+    removeStudent(index){
+      this.students.splice(index, 1)
     }
   }
 }
@@ -178,7 +195,13 @@ export default {
 }
 
 .slide-leave-active {
+  position: absolute;
+  width: 100%;
   animation: slide-out 2s ease;
+}
+
+.slide-move{
+  transition: transform 1s;
 }
 
 .fade-slide-enter-active {
@@ -194,6 +217,7 @@ export default {
 .fade-slide-enter, .fade-slide-leave-to {
   opacity: 0;
 }
+
 
 @keyframes slide-in {
   from {
