@@ -14,4 +14,4 @@
 * [Custom Directives](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/directives)
 * [Filters & Mixins](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/filters-mixins)
 * [Animation & Transition](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/animation-transition)
-* [Anination & Transition - Super Quiz Project]()
+* [Anination & Transition - Super Quiz Project](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/super-quiz)
