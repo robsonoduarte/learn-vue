@@ -15,3 +15,4 @@
 * [Filters & Mixins](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/filters-mixins)
 * [Animation & Transition](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/animation-transition)
 * [Anination & Transition - Super Quiz Project](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/super-quiz)
+* [HTTP with Axios](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/http)
