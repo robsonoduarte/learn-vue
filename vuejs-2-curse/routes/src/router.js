@@ -1,11 +1,11 @@
 import Vue from "vue"
-import Router from "vue-router"
+import VueRouter from "vue-router"
 import Init from "@/components/init"
 import User from "@/components/users/user"
 
-Vue.use(Router)
+Vue.use(VueRouter)
 
-export default new Router({
+export default new VueRouter({
     mode: 'history',
     routes: [
         {
@@ -13,7 +13,7 @@ export default new Router({
             component: Init
         },
         {
-            path: '/user',
+            path: '/user:id',
             component: User
         },
     ]
