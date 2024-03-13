@@ -2,10 +2,10 @@
 
 ### The topics are:
 
-[Config routes with vue-router]()
-[Router View]()
-[Navigation with Router Link]()
-[Navigation with JS]()
+* [Config routes with vue-router]()
+* [Router View]()
+* [Navigation with Router Link]()
+* [Navigation with JS]()
 
 
 
