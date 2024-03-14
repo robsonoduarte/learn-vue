@@ -54,25 +54,25 @@ button {
     border: 0;
 }
 
-[sucesso] {
+[success] {
     color: #FFF;
     background-color: #47af55;
 }
 
-[sucesso]:hover {
+[success]:hover {
     background-color: #47af55aa;
 }
 
-[primario] {
+[primary] {
     color: #FFF;
     background-color: #2392f0;
 }
 
-[primario]:hover {
+[primary]:hover {
     background-color: #2392f0aa;
 }
 
-.lista {
+.list {
     list-style: none;
     padding: 0px;
     border: 1px solid #FFF;
@@ -80,15 +80,15 @@ button {
     overflow: hidden;
 }
 
-.lista .item-lista {
+.list .item-list {
     padding: 15px 25px;
     cursor: pointer;
 }
 
-.lista .item-lista:hover {
+.list .item-list:hover {
     background-color: #FFF3;
 }
 
-.lista .item-lista:nth-child(n + 2) {
+.list .item-list:nth-child(n + 2) {
     border-top: 1px solid #FFF;
 }
