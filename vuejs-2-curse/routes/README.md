@@ -6,6 +6,7 @@
 * [Router View]()
 * [Navigation with Router Link]()
 * [Navigation with JS]()
+* [Activated Class]()
 * [Config Routes Params]()
 * [Using Routes Params]()
 * [Watch Routes Params Changes]()
