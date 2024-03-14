@@ -2,7 +2,8 @@
   <div class="user">
     <h2>Users</h2>
     <hr>
-    <button sucesso  @click="toInit">Back</button>
+    <router-view/>
+    <button success @click="toInit">Back</button>
   </div>
 </template>
 

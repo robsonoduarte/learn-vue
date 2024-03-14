@@ -6,6 +6,12 @@
 * [Router View]()
 * [Navigation with Router Link]()
 * [Navigation with JS]()
+* [Config Routes Params]()
+* [Using Routes Params]()
+* [Watch Routes Params Changes]()
+* [Routes Params as Props]()
+* [Children Routes]()
+* [Navigation Between Children Routes]()
 
 
 
