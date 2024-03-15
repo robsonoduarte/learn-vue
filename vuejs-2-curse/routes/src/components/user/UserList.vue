@@ -4,7 +4,7 @@
     <ul class="list">
       <router-link to="/user/1" tag="li" class="item-list">User 1</router-link>
       <router-link to="/user/2" tag="li" class="item-list">User 2</router-link>
-      <router-link to="/user/3" tag="li" class="item-list">User 2</router-link>
+      <router-link to="/user/3" tag="li" class="item-list">User 3</router-link>
     </ul>
   </div>
 </template>
