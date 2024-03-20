@@ -11,16 +11,11 @@ Vue.use(VueRouter)
 
 export default new VueRouter({
     mode: 'history',
-    scrollBehavior(to) {
-        if (to.hash) {
-            return {selector : to.hash}
-        }
-    },
     routes: [
         {
             path: '/',
             //component: Init
-            components:{
+            components: {
                 default: Init,
                 menu: Menu
             }
@@ -28,9 +23,9 @@ export default new VueRouter({
         {
             path: '/user',
             //component: User,
-            components:{
-              default: User,
-              menu: Menu
+            components: {
+                default: User,
+                menu: Menu
             },
             props: true,
             children: [
@@ -46,6 +41,11 @@ export default new VueRouter({
         {
             path: '*',
             redirect: '/'
+        },
+    ],
+    scrollBehavior(to) {
+        if (to.hash) {
+            return {selector: to.hash}
         }
-    ]
+    },
 })
