@@ -3,7 +3,7 @@
 ### The topics are:
 
 * [Config routes with vue-router](https://github.com/robsonoduarte/learn-vue/blob/1c6916113dcc49e91a879474ad687a69b38d60e0/vuejs-2-curse/routes/src/router.js#L11)
-* [Router View](https://github.com/robsonoduarte/learn-vue/blob/1c6916113dcc49e91a879474ad687a69b38d60e0/vuejs-2-curse/routes/src/App.vue#L5)
+* [Router View](https://github.com/robsonoduarte/learn-vue/blob/4f673a8ebbcca61e01d250f28165947190b35238/vuejs-2-curse/routes/src/App.vue#L9)
 * [Navigation with Router Link](https://github.com/robsonoduarte/learn-vue/blob/1c6916113dcc49e91a879474ad687a69b38d60e0/vuejs-2-curse/routes/src/components/template/Menu.vue#L4)
 * [Navigation with JS](https://github.com/robsonoduarte/learn-vue/blob/1c6916113dcc49e91a879474ad687a69b38d60e0/vuejs-2-curse/routes/src/components/user/User.vue#L15)
 * [Activated Class](https://github.com/robsonoduarte/learn-vue/blob/1c6916113dcc49e91a879474ad687a69b38d60e0/vuejs-2-curse/routes/src/components/template/Menu.vue#L5)
@@ -20,11 +20,11 @@
 * [Get Query String Params](https://github.com/robsonoduarte/learn-vue/blob/0c597384f330686297b936c2725e93303e5d692f/vuejs-2-curse/routes/src/components/user/UserEdit.vue#L5-L6)
 * [Multiple Router Views](https://github.com/robsonoduarte/learn-vue/blob/0c597384f330686297b936c2725e93303e5d692f/vuejs-2-curse/routes/src/router.js#L18-L20)
 * [Using Multiple Router Views](https://github.com/robsonoduarte/learn-vue/blob/0c597384f330686297b936c2725e93303e5d692f/vuejs-2-curse/routes/src/App.vue#L4)
-* [Redirect]()
-* [Redirect Wildcard]()
-* [Animate Route]()
-* [Pass Hash]()
-* [Hash Navigation (Scroll)]()
+* [Redirect](https://github.com/robsonoduarte/learn-vue/blob/4f673a8ebbcca61e01d250f28165947190b35238/vuejs-2-curse/routes/src/router.js#L38-L39)
+* [Redirect Wildcard](https://github.com/robsonoduarte/learn-vue/blob/4f673a8ebbcca61e01d250f28165947190b35238/vuejs-2-curse/routes/src/router.js#L42)
+* [Animate Route](https://github.com/robsonoduarte/learn-vue/blob/4f673a8ebbcca61e01d250f28165947190b35238/vuejs-2-curse/routes/src/App.vue#L5-L10)
+* [Pass Hash](https://github.com/robsonoduarte/learn-vue/blob/4f673a8ebbcca61e01d250f28165947190b35238/vuejs-2-curse/routes/src/components/user/UserDetail.vue#L7)
+* [Hash Navigation (Scroll)](https://github.com/robsonoduarte/learn-vue/blob/4f673a8ebbcca61e01d250f28165947190b35238/vuejs-2-curse/routes/src/router.js#L46)
 
 
 ## Project setup
