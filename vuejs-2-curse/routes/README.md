@@ -20,7 +20,11 @@
 * [Get Query String Params](https://github.com/robsonoduarte/learn-vue/blob/0c597384f330686297b936c2725e93303e5d692f/vuejs-2-curse/routes/src/components/user/UserEdit.vue#L5-L6)
 * [Multiple Router Views](https://github.com/robsonoduarte/learn-vue/blob/0c597384f330686297b936c2725e93303e5d692f/vuejs-2-curse/routes/src/router.js#L18-L20)
 * [Using Multiple Router Views](https://github.com/robsonoduarte/learn-vue/blob/0c597384f330686297b936c2725e93303e5d692f/vuejs-2-curse/routes/src/App.vue#L4)
-
+* [Redirect]()
+* [Redirect Wildcard]()
+* [Animate Route]()
+* [Pass Hash]()
+* [Hash Navigation (Scroll)]()
 
 
 ## Project setup
