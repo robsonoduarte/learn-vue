@@ -1,15 +1,15 @@
 import Vue from "vue"
 import VueRouter from "vue-router"
 import Init from "@/components/Init.vue"
-import User from "@/components/user/User.vue"
-import UserList from "@/components/user/UserList.vue";
-import UserEdit from "@/components/user/UserEdit.vue"
-import UserDetail from "@/components/user/UserDetail.vue"
 import Menu from "@/components/template/Menu.vue";
+const User = () => import(/* webpackChunkName: "group-user" */'./components/user/User.vue')
+const UserList = () => import(/* webpackChunkName: "group-user" */'./components/user/UserList.vue')
+const UserEdit = () => import(/* webpackChunkName: "group-user" */'./components/user/UserEdit.vue')
+const UserDetail = () => import(/* webpackChunkName: "group-user" */'./components/user/UserDetail.vue')
 
 Vue.use(VueRouter)
 
-export default new VueRouter({
+const router= new VueRouter({
     mode: 'history',
     routes: [
         {
@@ -29,7 +29,7 @@ export default new VueRouter({
             },
             props: true,
             children: [
-                {path: '', component: UserList},
+                {path: '', component: UserList, beforeEnter: (to, from, next) => {next()}},
                 {path: ':id', component: UserDetail, props: true},
                 {path: ':id/edit', component: UserEdit, props: true, name: 'userEdit'},
             ]
@@ -49,3 +49,9 @@ export default new VueRouter({
         }
     },
 })
+
+router.beforeEach((to, from, next) => {
+    next()
+});
+
+export default router;
