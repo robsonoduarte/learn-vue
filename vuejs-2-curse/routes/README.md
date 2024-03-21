@@ -26,10 +26,10 @@
 * [Pass Hash](https://github.com/robsonoduarte/learn-vue/blob/4f673a8ebbcca61e01d250f28165947190b35238/vuejs-2-curse/routes/src/components/user/UserDetail.vue#L7)
 * [Hash Navigation (Scroll)](https://github.com/robsonoduarte/learn-vue/blob/4f673a8ebbcca61e01d250f28165947190b35238/vuejs-2-curse/routes/src/router.js#L46)
 * [Global Navigation Guard]()
-* [Per-Route Guard]()
-* [In-Component Guards (Before Enter) ]()
-* [In-Component Guards (Before Leave) ]()
-* [Lazy Loading Routes]()
+* [Per-Route Guard](https://github.com/robsonoduarte/learn-vue/blob/4264e1a32aa81d7f666846a7f9d1bd45de893bb8/vuejs-2-curse/routes/src/router.js#L53)
+* [In-Component Guards (Before Enter) ](https://github.com/robsonoduarte/learn-vue/blob/4264e1a32aa81d7f666846a7f9d1bd45de893bb8/vuejs-2-curse/routes/src/components/user/UserDetail.vue#L28)
+* [In-Component Guards (Before Leave) ](https://github.com/robsonoduarte/learn-vue/blob/4264e1a32aa81d7f666846a7f9d1bd45de893bb8/vuejs-2-curse/routes/src/components/user/UserEdit.vue#L23)
+* [Lazy Loading Routes](https://github.com/robsonoduarte/learn-vue/blob/4264e1a32aa81d7f666846a7f9d1bd45de893bb8/vuejs-2-curse/routes/src/router.js#L5-L8)
 
 
 ## Project setup
