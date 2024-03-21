@@ -25,6 +25,11 @@
 * [Animate Route](https://github.com/robsonoduarte/learn-vue/blob/4f673a8ebbcca61e01d250f28165947190b35238/vuejs-2-curse/routes/src/App.vue#L5-L10)
 * [Pass Hash](https://github.com/robsonoduarte/learn-vue/blob/4f673a8ebbcca61e01d250f28165947190b35238/vuejs-2-curse/routes/src/components/user/UserDetail.vue#L7)
 * [Hash Navigation (Scroll)](https://github.com/robsonoduarte/learn-vue/blob/4f673a8ebbcca61e01d250f28165947190b35238/vuejs-2-curse/routes/src/router.js#L46)
+* [Global Navigation Guard]()
+* [Per-Route Guard]()
+* [In-Component Guards (Before Enter) ]()
+* [In-Component Guards (Before Leave) ]()
+* [Lazy Loading Routes]()
 
 
 ## Project setup
