@@ -1,7 +1,7 @@
 <template>
     <div class="painel">
         <div class="cabecalho">
-            <span class="titulo">{{ titulo }}</span>
+            <span class="title">{{ title }}</span>
             <span class="notificacao" v-if="notificacao">
                 {{ notificacao }}
             </span>
@@ -14,7 +14,7 @@
 
 <script>
 export default {
-    props: ['titulo', 'notificacao']
+    props: ['title', 'notificacao']
 }
 </script>
 
@@ -31,7 +31,7 @@ export default {
         justify-content: center;
     }
 
-    .titulo {
+    .title {
         flex: 1;
         padding: 5px;
     }

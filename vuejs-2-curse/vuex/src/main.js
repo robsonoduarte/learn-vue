@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Store from './store/store'
 import Panel from './components/Panel.vue'
+import store from './store/store'
 
 Vue.config.productionTip = false
 
@@ -12,6 +12,6 @@ Vue.filter('money', valor => {
 })
 
 new Vue({
-	Store,
+	store,
 	render: h => h(App),
 }).$mount('#app')

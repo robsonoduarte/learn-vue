@@ -1,5 +1,5 @@
 <template>
-    <Panel titulo="Parâmetros" vermelho>
+    <Panel title="Parâmetros" vermelho>
         <div class="parametros">
             <span>
                 <strong>Quantidade Padrão: </strong> 

@@ -2,7 +2,8 @@
 
 ### the topics are:
 
-* []()
+* [Global State]()
+* [Using Global State]()
 
 ## Project setup
 ```

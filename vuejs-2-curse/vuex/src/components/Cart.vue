@@ -1,5 +1,5 @@
 <template>
-    <Panel titulo="Carrinho" azul :notificacao="products.length">
+    <Panel title="Carrinho" azul :notificacao="products.length">
         <div class="carrinho">
             <table>
                 <thead>
@@ -34,11 +34,7 @@ export default {
                 .reduce((total, current) => total + current, 0)
         },
         products(){
-          return [
-            {id: 1, name: 'Product 1', amount: 7, price: 14.55},
-            {id: 2, name: 'Product 2', amount: 10, price: 22.99},
-            {id: 3, name: 'Product 3', amount: 1, price: 43.18},
-          ]
+          return this.$store.state.products
         }
     }
 }
