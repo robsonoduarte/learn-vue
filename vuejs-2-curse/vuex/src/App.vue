@@ -13,10 +13,10 @@
 </template>
 
 <script>
-import Parametros from './components/Parametros'
-import Loja from './components/Loja'
-import Carrinho from './components/Carrinho'
-import Resumo from './components/Resumo'
+import Parametros from './components/Parameters.vue'
+import Loja from './components/Shop.vue'
+import Carrinho from './components/Cart.vue'
+import Resumo from './components/Resume.vue'
 
 export default {
 	name: 'app',

@@ -1,15 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
+import Panel from './components/Panel.vue'
+import store from './store/store'
 
 Vue.config.productionTip = false
 
-import Painel from './components/Painel'
-Vue.component('Painel', Painel)
+Vue.component('Panel', Panel)
 
-Vue.filter('dinheiro', valor => {
+Vue.filter('money', valor => {
 	return `R$ ${parseFloat(valor).toFixed(2)}`.replace('.', ',')
 })
 
 new Vue({
+	store,
 	render: h => h(App),
 }).$mount('#app')
