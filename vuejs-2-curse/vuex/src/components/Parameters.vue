@@ -1,5 +1,5 @@
 <template>
-    <Painel titulo="Parâmetros" vermelho>
+    <Panel titulo="Parâmetros" vermelho>
         <div class="parametros">
             <span>
                 <strong>Quantidade Padrão: </strong> 
@@ -10,7 +10,7 @@
                 <input type="number" v-model="preco">
             </span>
         </div>
-    </Painel>
+    </Panel>
 </template>
 
 <script>

@@ -1,11 +1,11 @@
 <template>
-    <Painel titulo="Resumo" roxo>
+    <Panel titulo="Resumo" roxo>
         <div class="resumo">
-            <span>Total: <strong>{{ total | dinheiro }}</strong></span>
+            <span>Total: <strong>{{ total | money }}</strong></span>
             <hr>
             <button>Finalizar!</button>
         </div>
-    </Painel>
+    </Panel>
 </template>
 
 <script>

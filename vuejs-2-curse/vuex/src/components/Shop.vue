@@ -1,5 +1,5 @@
 <template>
-    <Painel titulo="Loja Virtual" verde>
+    <Panel titulo="Loja Virtual" verde>
         <div class="loja">
             <span>Adicionar</span>
             <input type="number" v-model.number="quantidade">
@@ -7,7 +7,7 @@
             <input type="number" v-model.number="preco">
             <button @click="adicionar">Agora!</button>
         </div>
-    </Painel>
+    </Panel>
 </template>
 
 <script>
