@@ -1,26 +1,26 @@
 <template>
 	<div id="app">
-		<h1>Exercícios Vuex</h1>
-		<div class="linha">
-			<Parametros />
-			<Loja />
+		<h1>Vuex</h1>
+		<div class="line">
+			<Parameters />
+			<Shop />
 		</div>
-		<div class="linha">
-			<Carrinho />
-			<Resumo />
+		<div class="line">
+			<Cart />
+			<Resume />
 		</div>
 	</div>
 </template>
 
 <script>
-import Parametros from './components/Parameters.vue'
-import Loja from './components/Shop.vue'
-import Carrinho from './components/Cart.vue'
-import Resumo from './components/Resume.vue'
+import Parameters from './components/Parameters.vue'
+import Shop from './components/Shop.vue'
+import Cart from './components/Cart.vue'
+import Resume from './components/Resume.vue'
 
 export default {
 	name: 'app',
-	components: { Parametros, Loja, Carrinho, Resumo }
+	components: {Parameters, Shop, Cart, Resume }
 }
 </script>
 
@@ -45,7 +45,7 @@ h1 {
 	font-weight: 200;
 }
 
-.linha {
+.line {
 	display: flex;
 }
 
