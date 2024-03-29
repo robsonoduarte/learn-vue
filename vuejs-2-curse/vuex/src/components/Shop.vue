@@ -13,7 +13,6 @@
 <script>
 // eslint-disable-next-line no-unused-vars
 import {mapActions, mapMutations} from "vuex";
-
 export default {
   data() {
     return {
@@ -22,10 +21,10 @@ export default {
   },
   computed: {
     amount() {
-      return this.$store.state.amount
+      return this.$store.state.parameters.amount
     },
     price() {
-      return this.$store.state.price
+      return this.$store.state.parameters.price
     },
   },
   methods: {
@@ -42,7 +41,7 @@ export default {
       this.addProduct(product)
     },
     //...mapMutations(["addProduct"])
-    ...mapActions(['addProduct'])
+    ...mapActions('cart', ['addProduct'])
   }
 }
 </script>

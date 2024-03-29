@@ -16,7 +16,7 @@ export default {
       return this.$store.getters.amount
     }
   }*/
-  computed: mapGetters({
+  computed: mapGetters('cart',{
     total: 'amount'
   })
 }
