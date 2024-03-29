@@ -15,6 +15,10 @@
 * [Using Actions with Dispatch]()
 * [Using Actions as Methods]()
 * [Vuex e Two-Way-Binding ]()
+* [Modules]()
+* [Using Modules]()
+* [Namespace]()
+* [Using Namespace]()
 
 ## Project setup
 ```

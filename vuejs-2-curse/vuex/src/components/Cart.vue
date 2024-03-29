@@ -34,9 +34,9 @@ export default {
             return this.$store.getters.amount
         },*/
         products(){
-          return this.$store.state.products
+          return this.$store.state.cart.products
         },
-       ...mapGetters({total: 'amount'}),
+       ...mapGetters('cart', {total: 'amount'}),
     }
 }
 </script>

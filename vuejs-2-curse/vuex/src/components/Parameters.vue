@@ -1,35 +1,36 @@
 <template>
   <Panel title="Parameters" vermelho>
     <div class="parameters">
-            <span>
-                <strong>Standard Amount: </strong>
-                <input type="number" v-model="amount">
-            </span>
       <span>
-                <strong>Standard Price: </strong>
-                <input type="number" v-model="price">
-            </span>
+          <strong>Standard Amount: </strong>
+          <input type="number" v-model="amount">
+      </span>
+      <span>
+        <strong>Standard Price: </strong>
+        <input type="number" v-model="price"/>
+      </span>
     </div>
   </Panel>
 </template>
 
 <script>
+
 export default {
   computed: {
-    amount:{
+    amount: {
       get() {
-        return this.$store.state.amount
+        return this.$store.state.parameters.amount
       },
       set(value) {
-        this.$store.commit("setAmount", value)
+        this.$store.commit('parameters/setAmount', value)
       },
     },
-    price:{
+    price: {
       get() {
-        return this.$store.state.price
+        return this.$store.state.parameters.price
       },
       set(value) {
-        this.$store.commit("setPrice", value)
+        this.$store.commit('parameters/setPrice', value)
       }
     }
   }
