@@ -16,8 +16,7 @@
 * [Using Actions as Methods](https://github.com/robsonoduarte/learn-vue/blob/4df27da51efce99fb5444cc710afc48003d6488c/vuejs-2-curse/vuex/src/components/Shop.vue#L44)
 * [Vuex e Two-Way-Binding ](https://github.com/robsonoduarte/learn-vue/blob/4df27da51efce99fb5444cc710afc48003d6488c/vuejs-2-curse/vuex/src/components/Parameters.vue#L19-L36)
 * [Modules](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/vuex/src/store/module)
-* [Config Modules](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/vuex/src/store/module)
-* [Using Modules](https://github.com/robsonoduarte/learn-vue/blob/4df27da51efce99fb5444cc710afc48003d6488c/vuejs-2-curse/vuex/src/store/store.js#L10)
+* [Using Modules](https://github.com/robsonoduarte/learn-vue/blob/ac14c77dd17c27bdb18305fdd7db913dd32aa267/vuejs-2-curse/vuex/src/store/store.js#L10)
 * [Namespace](https://github.com/robsonoduarte/learn-vue/blob/4df27da51efce99fb5444cc710afc48003d6488c/vuejs-2-curse/vuex/src/store/module/parameters.js#L2)
 * [Using Namespace](https://github.com/robsonoduarte/learn-vue/blob/4df27da51efce99fb5444cc710afc48003d6488c/vuejs-2-curse/vuex/src/components/Parameters.vue#L25)
 
