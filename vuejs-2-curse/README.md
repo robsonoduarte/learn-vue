@@ -18,3 +18,4 @@
 * [HTTP with Axios](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/http)
 * [Routes with Vue Router](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/routes)
 * [Vuex](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/vuex)
+* [Stock Trader Project](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/stock-trader)
