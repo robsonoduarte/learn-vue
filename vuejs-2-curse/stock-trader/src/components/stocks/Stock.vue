@@ -7,9 +7,9 @@
     </v-card>
     <v-card>
       <v-container fill-height>
-        <v-text-field label="Amount" type="number" v-model.number="amount"/>
-        <v-btn class="green darken-3 withe--text" @click="buy" :disabled="amount <= 0 || !Number.isInteger(amount)">
-          Buy
+        <v-text-field label="Amount" type="number" v-model.number="amount" :error="checkBalance || !Number.isInteger(amount)"/>
+        <v-btn class="green darken-3 withe--text" @click="buy" :disabled="checkBalance || amount <= 0 || !Number.isInteger(amount)">
+          {{ checkBalance ? 'No Balance' : 'Buy' }}
         </v-btn>
       </v-container>
     </v-card>
@@ -22,6 +22,14 @@ export default {
   data() {
     return {
       amount: 0
+    }
+  },
+  computed:{
+    balance(){
+      return this.$store.getters.balance
+    },
+    checkBalance(){
+      return this.amount * this.stock.price > this.balance
     }
   },
   methods: {
