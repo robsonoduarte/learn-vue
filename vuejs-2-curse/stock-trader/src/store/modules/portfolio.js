@@ -1,6 +1,6 @@
 export  default {
     state:{
-        funds: 10000,
+        balance: 10000,
         stocks: []
     },
     mutations:{
@@ -14,7 +14,7 @@ export  default {
                     amount: amount
                 })
             }
-            state.funds -= price * amount
+            state.balance -= price * amount
         },
         sellStock(state, {id, amount, price}) {
             const record = state.stocks.find(e => e.id === id)
@@ -23,12 +23,12 @@ export  default {
             }else{
                 state.stocks.splice(state.stocks.indexOf(record), 1)
             }
-            state.funds =+ price * amount
+            state.balance += price * amount
         },
     },
     actions:{
         sellStock({commit}, order) {
-            commit('setStocks', order)
+            commit('sellStock', order)
         }
     },
     getters:{
@@ -43,8 +43,8 @@ export  default {
                 }
             })
         },
-        funds(state) {
-            return state.funds
+        balance(state) {
+            return state.balance
         },
     }
 }
