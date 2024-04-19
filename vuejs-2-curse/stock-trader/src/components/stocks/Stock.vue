@@ -2,7 +2,7 @@
   <v-flex class="pb-3 pr-3" x12 md6 lg4>
     <v-card class="green darken-3 white--text">
       <v-card-title class="headline">
-        <strong>{{ stock.name }} <small>Price: {{ stock.price }}</small></strong>
+        <strong>{{ stock.name }} <small>Price: {{ stock.price | currency }}</small></strong>
       </v-card-title>
     </v-card>
     <v-card>

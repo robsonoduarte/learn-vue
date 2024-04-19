@@ -10,7 +10,7 @@
       <span class="headline white--text font-weight-light">Click in "End day" to start a new day</span>
     </v-sheet>
     <v-divider class="my-4"/>
-    <p class="display-1"><strong>Your Balance: {{ balance }}</strong></p>
+    <p class="display-1"><strong>Your Balance: {{ balance | currency }}</strong></p>
   </div>
 </template>
 

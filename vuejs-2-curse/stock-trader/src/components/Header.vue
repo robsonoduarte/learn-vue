@@ -24,7 +24,7 @@
         </v-list>
       </v-menu>
       <v-layout align-center>
-        <span class="text-uppercase grey--text text--darken-2">Balance: {{ balance }}</span>
+        <span class="text-uppercase grey--text text--darken-2">Balance: {{ balance | currency}}</span>
       </v-layout>
     </v-toolbar-items>
   </v-toolbar>
