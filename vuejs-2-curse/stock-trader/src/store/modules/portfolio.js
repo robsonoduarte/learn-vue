@@ -25,6 +25,10 @@ export  default {
             }
             state.balance += price * amount
         },
+        setPortfolio(state, portfolio) {
+          state.balance = portfolio.balance
+          state.stocks = portfolio.stockPortfolio ? portfolio.stockPortfolio : []
+        },
     },
     actions:{
         sellStock({commit}, order) {
