@@ -11,7 +11,7 @@
     </v-toolbar-items>
     <v-spacer/>
     <v-toolbar-items>
-      <v-btn flat>End Day</v-btn>
+      <v-btn flat @click="endDay">End Day</v-btn>
       <v-menu offset-y>
         <v-btn flat slot="activator">Save & Load</v-btn>
         <v-list>
@@ -24,17 +24,26 @@
         </v-list>
       </v-menu>
       <v-layout align-center>
-        <span class="text-uppercase grey--text text--darken-2">Balance: {{ balance | currency}}</span>
+        <span class="text-uppercase grey--text text--darken-2">Balance: {{ balance | currency }}</span>
       </v-layout>
     </v-toolbar-items>
   </v-toolbar>
 </template>
 
 <script>
+
+import {mapActions} from "vuex"
+
 export default {
-  computed:{
-    balance(){
+  computed: {
+    balance() {
       return this.$store.getters.balance
+    },
+  },
+  methods: {
+    ...mapActions(['randomStock']),
+    endDay() {
+      this.randomStock()
     }
   }
 }
