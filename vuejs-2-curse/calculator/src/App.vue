@@ -1,12 +1,17 @@
 <template>
-
+  <div id="app">
+    <h1>Hello vue</h1>
+  </div>
 </template>
 
 <script >
-
-</script>
 export default{
+
+
+
 }
+</script>
+
 
 <style>
 
