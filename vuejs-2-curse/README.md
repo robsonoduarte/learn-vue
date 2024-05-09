@@ -19,3 +19,4 @@
 * [Routes with Vue Router](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/routes)
 * [Vuex](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/vuex)
 * [Stock Trader Project](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/stock-trader)
+* [Calculator](https://github.com/robsonoduarte/learn-vue/tree/master/vuejs-2-curse/calculator)
