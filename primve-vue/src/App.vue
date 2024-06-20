@@ -1,8 +1,18 @@
-<script setup>
+<script >
+import DatePicker from 'primevue/datepicker';
+export default {
+  components: {DatePicker},
+  data(){
+    return{
+      date: ''
+    }
+  }
+}
+
 </script>
 
 <template>
-  oi
+  <DatePicker v-model="date" />
 </template>
 
 <style scoped>
