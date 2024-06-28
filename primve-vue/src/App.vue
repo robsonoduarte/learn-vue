@@ -48,15 +48,15 @@ export default {
           x: {
             grid: {
               display: true,
-              color: '#FFFFFF',
+              color: '#887c7c',
               lineWidth: 0.1
             }
           },
           y: {
             grid: {
               display: true,
-              color: '#FFFFFF',
-              lineWidth: 0.05
+              color: '#887c7c',
+              lineWidth: 0.1
             }
           }
         }
