@@ -1,5 +1,20 @@
 <template>
-  <Chart type="line" :data="data" :options="options"></Chart>
+  <div class="grid">
+    <div class="col">
+      <Chart type="bar" :data="data" :options="options"></Chart>
+    </div>
+    <div class="col">
+      <Chart type="bar" :data="data" :options="options2"></Chart>
+    </div>
+  </div>
+  <div class="grid">
+    <div class="col">
+      <Chart type="line" :data="data" :options="options"></Chart>
+    </div>
+    <div class="col">
+      <Chart type="line" :data="data" :options="options"></Chart>
+    </div>
+  </div>
 </template>
 
 
@@ -9,6 +24,24 @@ import Chart from 'primevue/chart'
 export default {
   components: { Chart },
   data() {
+
+    const scale = {
+      x: {
+        grid: {
+          display: true,
+          color: '#887c7c',
+          lineWidth: 0.1
+        }
+      },
+      y: {
+        grid: {
+          display: true,
+          color: '#887c7c',
+          lineWidth: 0.1
+        }
+      }
+    }
+
     return {
       data: {
         labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
@@ -42,25 +75,25 @@ export default {
           title: {
             display: true,
             text: 'Prime Vue Chart.js'
-          },
-        },
-        scales: {
-          x: {
-            grid: {
-              display: true,
-              color: '#887c7c',
-              lineWidth: 0.1
-            }
-          },
-          y: {
-            grid: {
-              display: true,
-              color: '#887c7c',
-              lineWidth: 0.1
-            }
           }
-        }
+        },
+        scales: scale
+      },
+      options2: {
+        responsive: true,
+        indexAxis: 'y',
+        plugins: {
+          legend: {
+            position: 'top'
+          },
+          title: {
+            display: true,
+            text: 'Prime Vue Chart.js'
+          }
+        },
+        scales: scale
       }
+
     }
   }
 }
