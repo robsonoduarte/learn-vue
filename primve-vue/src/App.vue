@@ -1,5 +1,10 @@
 <template>
-  <Chart type="line" :data="data" :options="options"></Chart>
+  <div class="grid">
+    <div class="col">
+      <Chart type="line" :data="data" :options="options"></Chart>
+    </div>
+  </div>
+
 </template>
 
 
